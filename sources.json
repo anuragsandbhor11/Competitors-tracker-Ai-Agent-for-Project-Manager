@@ -1,0 +1,68 @@
+{
+  "sources": [
+    {
+      "name": "Competitor A Blog",
+      "url": "https://competitor-a.com/blog",
+      "type": "website",
+      "selectors": {
+        "container": ".blog-post, article",
+        "title": "h1, h2, .post-title",
+        "content": ".post-content, .excerpt, p",
+        "date": ".post-date, time, .date"
+      }
+    },
+    {
+      "name": "Competitor A Changelog",
+      "url": "https://competitor-a.com/changelog",
+      "type": "website",
+      "selectors": {
+        "container": ".changelog-entry, .update",
+        "title": ".update-title, h3",
+        "content": ".update-content, .description",
+        "date": ".update-date, .timestamp"
+      }
+    },
+    {
+      "name": "Competitor B RSS Feed",
+      "url": "https://competitor-b.com/feed.xml",
+      "type": "rss"
+    },
+    {
+      "name": "Competitor B Product Updates",
+      "url": "https://competitor-b.com/product-updates",
+      "type": "website",
+      "selectors": {
+        "container": ".product-update, .release-note",
+        "title": ".update-headline, h2",
+        "content": ".update-body, .summary",
+        "date": ".release-date, .published"
+      }
+    },
+    {
+      "name": "Competitor C Twitter",
+      "url": "https://twitter.com/competitor_c",
+      "type": "twitter"
+    },
+    {
+      "name": "Competitor D LinkedIn",
+      "url": "https://linkedin.com/company/competitor-d",
+      "type": "linkedin"
+    },
+    {
+      "name": "Industry News RSS",
+      "url": "https://techcrunch.com/feed/",
+      "type": "rss"
+    },
+    {
+      "name": "Competitor E Pricing Page",
+      "url": "https://competitor-e.com/pricing",
+      "type": "website",
+      "selectors": {
+        "container": ".pricing-tier, .plan",
+        "title": ".plan-name, h3",
+        "content": ".plan-features, .price",
+        "date": ".last-updated, .price-date"
+      }
+    }
+  ]
+}
